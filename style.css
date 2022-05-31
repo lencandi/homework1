@@ -90,19 +90,15 @@ nav .menu{
 .center .btns{
   margin-top: 20px;
 }
-.center .btns button{
-  height: 55px;
-  width: 170px;
-  border-radius: 5px;
-  border: none;
-  margin: 0 10px;
-  border: 2px solid white;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
+.center .btns button {
+        background-color: #000;
+        border: .5px solid crimson;
+        border-radius: 10px;
+        color: #fff;
+        padding: 8px;
+        box-shadow: 0 0 30px 0 crimson,
+                    0 0 30px 0 crimson,
+                    0 0 10px 0 crimson inset;
 }
 .center .btns button:first-child{
   color: #fff;
